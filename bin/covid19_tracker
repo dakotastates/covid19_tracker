@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require './lib/covid19_tracker'
+require "bundler/setup"
+#require "covid19_tracker"
+
+Covid19Tracker::CLI.new.call
